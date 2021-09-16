@@ -1,0 +1,76 @@
+/* Containers */
+.slider__container {
+  padding: 32px 0;
+}
+
+.slider__content-wrapper {
+  width: 100%;
+  height: 90vh;
+}
+
+.slider__content {
+  display: flex;
+  height: 100%;
+}
+
+/* Buttons */
+.slider__button {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  cursor: pointer;
+  border: 0;
+  background-color: #921f45;
+  transition: background-color 0.4s ease;
+}
+.slider__button:hover {
+  background-color: #4aa7de;
+}
+
+.slider__button .material-icons {
+  font-size: 32px;
+  color: white;
+}
+
+/* --- Responsive styling --- */
+@media screen and (min-width: 320px) {
+  .slider__container {
+    width: 80%;
+    overflow: visible;
+  }
+
+  .slider__button {
+    width: 56px;
+    height: 56px;
+  }
+
+  .slider__button-left {
+    left: 16px;
+  }
+
+  .slider__button-right {
+    right: 16px;
+  }
+}
+/* Desktop */
+@media screen and (min-width: 992px) {
+  .slider__container {
+    width: 84%;
+    overflow: hidden;
+  }
+
+  .slider__button {
+    width: 64px;
+    height: 64px;
+  }
+
+  .slider__button-left {
+    left: 24px;
+  }
+
+  .slider__button-right {
+    right: 24px;
+  }
+}
