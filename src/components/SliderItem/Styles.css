@@ -58,9 +58,6 @@
   cursor: pointer;
   letter-spacing: 1px;
   text-decoration: none;
-}
-
-.sliderItem__info-text--link {
   display: inline-block;
   position: relative;
   padding-bottom: 4px;
