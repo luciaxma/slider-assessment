@@ -6,7 +6,7 @@ This project was created with React.
 A simple slider built with infinite looping functionality and is fully responsive.
 
 ### Features
-- Inifite looping
+- Infinite looping
 - Responsive
 - Multiple items
 - Animations
